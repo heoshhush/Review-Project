@@ -16,6 +16,6 @@
   <br>
 
   <h5> 메인 화면 </h5>
-  <img src = "sample1.jpg" width=520px>
+  <img src = "sample1.png" width= 520px>
   <p>
   </p>
