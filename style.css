@@ -1,0 +1,113 @@
+* {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  height: 800px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contents {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  width: 600px;
+  height: 550px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headLine__logo {
+  width: 100%;
+  font-size: 52px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+}
+.headLine__divider {
+  width: 200px;
+  border-bottom: 5px solid powderblue;
+  margin: auto;
+}
+.picture {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-quote-left {
+  font-size: 45px;
+  color: powderblue;
+  position: absolute;
+  transform: translateX(-60px);
+  z-index: 2;
+}
+.personPic {
+  width: 170px;
+  height: 180px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.picture__shadow {
+  width: 170px;
+  height: 180px;
+  background-color: powderblue;
+  position: absolute;
+  z-index: 0;
+  border-radius: 50%;
+  transform: translate(4%, -2%);
+}
+
+.nameAndPosition {
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+  text-align: center;
+}
+.name {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.position {
+  color: lightblue;
+  margin-top: 5px;
+  height: 30px;
+}
+.reviewText {
+  margin-top: 15px;
+  height: 500px;
+}
+.arrowButtons {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.leftButton,
+.rightButton {
+  font-size: 32px;
+  background-color: transparent;
+  color: powderblue;
+  border: none;
+  outline: none;
+}
+
+.surpriseMe {
+  background-color: white;
+  border: 2px solid powderblue;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 18px;
+
+  outline: none;
+}
